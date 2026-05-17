@@ -11,7 +11,7 @@ import (
 	"github.com/redis/go-redis/v9"
 )
 
-func New(c *Conf) (*redis.Client, error) {
+func New(c *Config) (*redis.Client, error) {
 	if c == nil {
 		return nil, errors.New("redis: conf is nil")
 	}

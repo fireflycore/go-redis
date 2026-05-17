@@ -2,8 +2,8 @@ package redis
 
 import "github.com/fireflycore/go-utils/tlsx"
 
-// Conf 定义 redis 连接初始化所需的配置项。
-type Conf struct {
+// Config 定义 redis 连接初始化所需的配置项。
+type Config struct {
 	Address  string `json:"address"`
 	Database string `json:"database"`
 	Username string `json:"username"`
